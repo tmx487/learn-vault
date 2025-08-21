@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"9c822e0afb27b9c0","x":-355,"y":-280,"width":520,"height":140,"color":"3","type":"text","text":"public interface IEnumerable\\<T> : IEnumerable\n{\n\tIEnumerator\\<T> GetEnumerator();\n}"},
+		{"id":"e944cc1f5b9609ce","x":-355,"y":-480,"width":520,"height":140,"color":"3","type":"text","text":"public interface IEnumerable\n{\n\tIEnumerator GetEnumerator();\n}"},
+		{"id":"5ef2b154d9699192","type":"text","text":"public interface ICollection\\<T> : IEnumerable\\<T>\n{\n    int Count { get; }\n    bool IsReadOnly { get; }\n    void Add(T item);\n    void Clear();\n    bool Contains(T item);\n    void CopyTo(T[] array, int arrayIndex);\n    bool Remove(T item);\n}","x":-355,"y":-60,"width":520,"height":300,"color":"3"}
+	],
+	"edges":[
+		{"id":"f7d65bfa4124cfd0","fromNode":"9c822e0afb27b9c0","fromSide":"top","toNode":"e944cc1f5b9609ce","toSide":"bottom"},
+		{"id":"ba7c7cdf0d792845","fromNode":"5ef2b154d9699192","fromSide":"top","toNode":"9c822e0afb27b9c0","toSide":"bottom"}
+	]
+}

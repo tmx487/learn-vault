@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"df539d15c8c6a6eb","type":"text","text":"Value Types","x":-345,"y":-1120,"width":250,"height":56,"color":"2"},
+		{"id":"99c279efb824dc97","type":"text","text":"[Integral Numeric Types](#https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types):\n- sbyte, byte, short, ushort, int, uint, long, ulong, nint, nuint\n\nIntegral literals:\n- *decimal*: without any prefix\n- *hexadecimal_*: with the `0x` or `0X` prefix\n- *binary*: with the `0b` or `0B` prefix","x":-1080,"y":-843,"width":344,"height":363,"color":"#91eebe"},
+		{"id":"19a8971c5ee6bc85","type":"file","file":"Обучение/Подготовка к собеседованиям/Ответы на вопросы из списка/img/Pasted image 20240326172107.png","x":-2080,"y":-720,"width":536,"height":394},
+		{"id":"2c1c267b03bd47d8","type":"file","file":"Обучение/Подготовка к собеседованиям/Ответы на вопросы из списка/img/Pasted image 20240326172243.png","x":-2120,"y":-240,"width":535,"height":460},
+		{"id":"1b335142fda923c2","type":"text","text":"[Floating-point numeric types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types):\n- float\n- double\n- decimal\n\nReal literals:\n- The literal without suffix or with the d or D suffix is of type double\n- The literal with the f or F suffix is of type float\n- The literal with the m or M suffix is of type decimal","x":-911,"y":-404,"width":350,"height":424,"color":"#91eebe"},
+		{"id":"455d6f383cca93cf","type":"text","text":"bool, char","x":-595,"y":-553,"width":250,"height":60,"color":"#91eebe"},
+		{"id":"4f39d5d259005619","type":"text","text":"enum, struct, ref struct","x":-470,"y":-376,"width":250,"height":50,"color":"#91eebe"},
+		{"id":"8c408567ed2121a3","type":"text","text":"nullable value types:\n\n```c#\ndouble? pi = 3.14;\nchar? letter = 'a';\n```\n\n\n`System.Nullable<T>` - is a generic struct","x":-345,"y":-253,"width":454,"height":243,"color":"#91eebe"},
+		{"id":"194c24e4cd25bf94","type":"text","text":"tuple:\n```c#\n(double, int) t1 = (4.5, 3);\n```","x":-95,"y":-493,"width":460,"height":132,"color":"#91eebe"},
+		{"id":"178734b64b2972b0","type":"text","text":"Reference Types\n\nThe following keywords are used to declare reference types:\n- class\n- interface\n- delegate\n- record\n\nC# also provides the following *built-in reference types*:\n- dynamic\n- object\n- string","x":560,"y":-1274,"width":480,"height":420,"color":"6"},
+		{"id":"a31aca824ae3b394","type":"text","text":"Типы C#","x":80,"y":-1540,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"77f1b5d377403a58","fromNode":"a31aca824ae3b394","fromSide":"bottom","toNode":"df539d15c8c6a6eb","toSide":"top"},
+		{"id":"8d4e13b189ec784d","fromNode":"a31aca824ae3b394","fromSide":"bottom","toNode":"178734b64b2972b0","toSide":"top"},
+		{"id":"0a03b88de9c147bb","fromNode":"df539d15c8c6a6eb","fromSide":"bottom","toNode":"99c279efb824dc97","toSide":"top"},
+		{"id":"f4f71987519bf7d6","fromNode":"df539d15c8c6a6eb","fromSide":"bottom","toNode":"1b335142fda923c2","toSide":"top"},
+		{"id":"c2807860e1b6a613","fromNode":"99c279efb824dc97","fromSide":"left","toNode":"19a8971c5ee6bc85","toSide":"right","toEnd":"none"},
+		{"id":"f59afe41efdaec32","fromNode":"2c1c267b03bd47d8","fromSide":"right","toNode":"99c279efb824dc97","toSide":"left","toEnd":"none"},
+		{"id":"707ad7b74491085e","fromNode":"df539d15c8c6a6eb","fromSide":"bottom","toNode":"455d6f383cca93cf","toSide":"top"},
+		{"id":"fd528a2970988148","fromNode":"df539d15c8c6a6eb","fromSide":"bottom","toNode":"4f39d5d259005619","toSide":"top"},
+		{"id":"9410fb7078f09538","fromNode":"df539d15c8c6a6eb","fromSide":"bottom","toNode":"194c24e4cd25bf94","toSide":"top"},
+		{"id":"7817d160303c7d11","fromNode":"df539d15c8c6a6eb","fromSide":"bottom","toNode":"8c408567ed2121a3","toSide":"top"}
+	]
+}
